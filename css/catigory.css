@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.mt-4{
+    margin-bottom: 10px;
+    
+ 
+}
+
+.path{
+    padding: 20px;
+    border: top;
+}
+.path .container   {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top:-20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: medium;
+    color: #adadad;
+    align-items: baseline;
+
+   
+    
+}
+.path a{
+    color: var(--main-item-color);
+    text-decoration: none;
+}
+.stars i{
+    color: rgb(255, 217, 27);
+}
+
+.path a:hover,
+.path .icon:hover{
+    color: red;
+}
+
+
+/* start caurosor*/
+.sliedr-prodcuts .mySwiper .swiper-wrapper .prodcut .img-prodcut  img{
+    width: 130px;
+    height: 150px ;
+    display: inline;
+    
+
+}
+ /* @media(max-width:786px){
+    .sliedr-prodcuts{
+        display: flex;
+        justify-content: center;
+    }
+}  */
+ 
+ .sliedr-prodcuts .mySwiper .swiper-wrapper .prodcut{
+    height: 0px;
+ }
+
+ .sliedr-prodcuts .mySwiper .swiper-wrapper .prodcut .about-prodcut{
+    margin-left: 160px;
+    position: relative;
+    bottom: 200px;
+    padding: 30px;
+ 
+ }
+
+ .sliedr-prodcuts .mySwiper .swiper-wrapper .prodcut .about-prodcut button{
+    
+        padding: 10px 20px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    
+    }
+    .sliedr-prodcuts .mySwiper .swiper-wrapper .prodcut .about-prodcut    button:hover {
+        background-color: red;
+    }
+    
+
+.smartphoneclass .products-category  h4{ 
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    
+    left: 300px;
+    bottom: 130px;
+     width: 70%;
+
+}
+
+.dividersection {
+    display: flex;
+ 
+}
+
+.activdivider{
+    background-color: red;
+    width: 150px;
+    height: 1.5px;
+    
+}
+
+.smartphoneclass .clearfix {
+   margin-left:400px;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: var(--swiper-pagination-top, 100%);
+    left: 15%;
+    width: 100%;
+}
+/* .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 1000px;
+  margin-left: 100px;
+
+} */
+
+/* .swiper-pagination .swiper-pagination-bullet {
+    background-color: #ccc; 
+    width: 12px; 
+    height: 12px;
+    border-radius: 50%; 
+    margin: 0 5px; 
+    transition: background-color 0.3s ease; 
+   
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #000; 
+    
+} */
+
+footersecond .mycontainer {
+    background-color: white;
+    display: flex;
+    
+}
+
+.footersecond {
+    background-color: white;
+    padding-top: 30px;
+}
+
+.footersecond .mycontainer .footersecondl p, .footersecondc p, .footersecondr p {
+    font-size: 20px;
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footersecondl img:hover {
+    opacity: 0.5;
+}
+
+.footersecond .mycontainer {
+    padding-bottom: 27px;
+    justify-content: space-around;
+    margin-left: 0px;
+}
+
+.footersecondc i {
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 60px;
+    background-color: rgb(238, 241, 241);
+    margin-right: 6px;
+    color: #282727;
+}
+
+.footersecondc i:hover {
+    background-color: rgb(246, 65, 45);
+    color: white;
+}
+
+/* نهاية تاني فووتر */
+
+
+
+/* بداية اخر فووتر */
+
+.footerthird {
+    background-color: #F6412D;
+}
+
+.footerthird .mycontainer {
+    background-color: #F6412D;
+    padding-top: 18px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerthirdL {
+    width: 60%;
+}
+
+.footerthirdR {
+    width: 40%;
+}
+
+.footerthirdR ul {
+    list-style: none;
+    display: flex;
+}
+
+.footerthirdR ul li {
+    margin-right: 20px;
+}
+
+.footerthirdR ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerthirdL span:hover {
+    color: black;
+}
+
+.footerthirdR ul li a:hover {
+    color: black;
+}
+
+/* وخلاص كدا اعتقد  */
+
+
+@media (max-width:786px){
+  .headerone{
+    width: 500px;
+    height: 50px;
+ 
+  }
+  .leftone {
+       padding:0px;
+       margin: auto;
+       font-size: 10px;
+     }
+
+     .fa-square-phone .title .fa-van-shuttle .delivery-text {
+      margin: 5px 0;
+     }
+     .rightone {
+       padding: 0px;
+       font-size: 10px;
+       margin-right: 56px; 
+     }
+     .languageSection{
+       margin: -6px;
+     }
+     .headertwo img{
+        margin-left: -251px;
+        width: 100px;
+     }
+     
+    .righttwo .righttwodiv {
+        float: right;
+        margin-right: -9px;
+        font-size: 15px;
+    }
+    .car{
+    display: none;
+    }
+
+     .centertwo{
+        margin-left: -165px;
+     }
+
+     /* .btn-group .dropdown-toggle .myuselesssearch .fa-solid fa-magnifying-glass{
+        margin-left: -200px;
+       
+     } */
+.navbar-toggler{
+   background-color: rgb(241, 112, 112);
+
+   
+}
+
+    .clearfix .title-category{
+      padding: auto;
+      margin-left: -370px;
+  
+    }
+    .clearfix p{
+        margin-left: -370px;
+        
+    }
+
+    .activdivider{
+        margin-left: -372px;
+        
+    }
+    .container {
+       margin-left: 0px;
+
+    }
+     .path div{
+        position: absolute;
+      }
+       .img-fluid{
+        width: 80%;
+       }
+    .App{
+        width: 100px;
+    }
+    .mycontainer4{
+        padding: 10px;
+        display: block;
+        margin-left: -29px;
+        font-size: 15px;
+    }
+    .footerfirst1{
+        display: block;
+        margin-left: 20px;
+        padding: 5px;
+    
+    }
+
+.footersecondl{
+    display: block;
+    text-align: center;
+}
+.footerfirstl h4{
+    margin:auto;
+    padding-top:0px;
+    padding-left: 20px;
+}
+
+.footersecondr{
+ top: 20px;
+ margin-left: 30px;
+ margin-top: -24px;
+}
+.footersecondr p{
+    font-size: 15px;
+}
+.footersecondc{
+    font-size: 20px;
+    right: 10px;
+    padding-top: 50px;
+    position:absolute;
+}
+    }   
